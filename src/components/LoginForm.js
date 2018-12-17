@@ -35,7 +35,7 @@ class LoginForm extends Component {
         </button>
         <p className="or">or</p>
         <div className="form-group">
-          <label htmlFor="email" className="fomr-label">
+          <label htmlFor="email" className="form-label">
             Email
           </label>
           <input
@@ -49,7 +49,7 @@ class LoginForm extends Component {
           />
         </div>
         <div className="form-group">
-          <label htmlFor="password" className="fomr-label">
+          <label htmlFor="password" className="form-label">
             Password
           </label>
           <input
@@ -62,6 +62,7 @@ class LoginForm extends Component {
             onChange={this.handleInputChange}
           />
         </div>
+        <div className="disclaimer">Forgot your password? | Register</div>
         <button className="form-submit-button">Login</button>
       </form>
     );
