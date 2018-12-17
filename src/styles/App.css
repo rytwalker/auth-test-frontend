@@ -1,0 +1,89 @@
+.App {
+  background-image: linear-gradient(#e78ea0, #a64453);
+  height: 100vh;
+}
+
+.LoginView {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-form {
+  background: #393f59;
+  color: #fff;
+  width: 600px;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 0 6px 10px 6px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 6rem;
+}
+
+.login-title {
+  margin: 0 0 2rem;
+  font-weight: 700;
+  font-size: 3.2rem;
+  text-transform: uppercase;
+}
+
+.social-button {
+  font-size: 2rem;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 2rem;
+  padding: 0;
+  display: flex;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.facebook {
+  color: #2a3e6a;
+}
+
+.google {
+  color: #4285f4;
+}
+
+.facebook:hover {
+  background: #2a3e6a;
+  color: #fff;
+}
+
+.google:hover {
+  background: #4285f4;
+  color: #fff;
+}
+
+.social-button-square {
+  width: 43px;
+  height: 43px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.facebook .social-button-square {
+  background: #2a3e6a;
+}
+
+.google .social-button-square {
+  background: #4285f4;
+}
+
+.social-button-text {
+  padding: 1rem;
+  margin: auto;
+  font-weight: 700;
+}
+
+.or {
+  margin: 0 0 2rem;
+  font-weight: 300;
+}
